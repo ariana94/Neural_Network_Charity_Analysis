@@ -21,8 +21,14 @@ In this project, we assisted Alphabet Soup in analzying data from their past 34,
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
   - I chose to have two hidden layers with 80 (because this is almost twice the amount of input data) and 30 neurons. ReLu was used for the hidden layers and Sigmoid was used for the output layer. ReLu was chosen because it can handle the complex dataset in the most efficient way.
 
+![OG layers](https://user-images.githubusercontent.com/19378130/193478383-7c5e6973-5108-4f16-9805-8cda21a4557a.PNG)
+
+
 - Were you able to achieve the target model performance?
   - After numerous attempts, the closest I was able to get was 73%
+
+![OG accuracy](https://user-images.githubusercontent.com/19378130/193478388-c15843d6-3088-4e37-885a-a49d367bf651.PNG)
+
 
 - What steps did you take to try and increase model performance?
   - I tried dropping another column, changing the classification numbers, adding a hidden layer (I played around with other activation functions too), and tried different amounts of neurons and epochs.
